@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export BINDIR=/usr/local/bin
+
+export BITSDIR=/home/ubuntu/download
+
+#Pivotal network 
+export APIREFRESHTOKEN="<insert-refresh-token-here>"
+
+# VMware Download Account
+export VMD_USER='<username>'
+export VMD_PASS='<password>'
+
+
