@@ -11,4 +11,5 @@ export APIREFRESHTOKEN="<insert-refresh-token-here>"
 export VMD_USER='<username>'
 export VMD_PASS='<password>'
 
-
+# CLI Tools version
+export VMDRELEASE=0.3.0
