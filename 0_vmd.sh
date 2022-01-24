@@ -6,8 +6,14 @@ if [[ ! -e $BITSDIR ]]; then
     mkdir $BITSDIR
 fi
 
+if [ $VMDRELEASE = "" ]
+then
+    echo "Update VMDRELEASE value in set_env before running it"
+    exit 1
+fi
+
 sudo apt-get update -y
-sudo apt-get upgrade -y
+# sudo apt-get upgrade -y
 
 # vmd cli
 # from https://github.com/laidbackware/vmd
